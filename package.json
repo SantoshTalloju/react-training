@@ -14,7 +14,10 @@
   "author": "Santosh Talloju",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.16.3"
+    "autoprefixer": "^10.4.23",
+    "parcel": "^2.16.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
   },
   "dependencies": {
     "react": "^18.2.8",

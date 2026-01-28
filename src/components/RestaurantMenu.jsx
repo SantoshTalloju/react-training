@@ -18,7 +18,7 @@ const RestaurantMenu = () => {
     resInfo.cards[4].groupedCard.cardGroupMap.REGULAR.cards[1].card.card;
 
   return (
-    <div className="menu">
+    <div className="m-4 p-4">
       <h1>{name}</h1>
       <p>
         {cuisines.join(", ")} - {costForTwoMessage}
