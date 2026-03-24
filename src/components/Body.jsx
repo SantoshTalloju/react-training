@@ -16,7 +16,6 @@ const Body = () => {
 
   const RestaurantCardWithVeg = withVegLabel(RestaurantCard);
 
-  console.log('res list:', resData);
   useEffect(() => {
     fetchData();
   }, []);
@@ -65,6 +64,7 @@ const Body = () => {
         <div className="search m-4 p-4 flex items-center">
           <input
             type="text"
+            data-testid="searchInput"
             className="border border-solid border-black"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}

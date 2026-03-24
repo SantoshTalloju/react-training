@@ -11,7 +11,7 @@ const RestaurantCard = ({ resData }) => {
     } = resData;
 
     return (
-      <div className="m-2 p-2 w-[250px] rounded-lg hover:bg-gray-200 bg-gray-100">
+      <div data-testid="restaurantCard" className="m-2 p-2 w-[250px] rounded-lg hover:bg-gray-200 bg-gray-100">
         <img
           className="rounded-lg"
           src={
